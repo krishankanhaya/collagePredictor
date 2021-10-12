@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLAGE PREDICTOR || CUT OFF</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="navigationBar">
+        <a href=""><img id="logo" src="images/logo.png" alt="webLogo"></a>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="pages/underdevlopment.html">HOME</a>
+              <a href="pages/underdevlopment.html">COLLAGE</a>
+              <a href="pages/underdevlopment.html">COLLAGE PREDICTION</a>
+              <a href="pages/underdevlopment.html">OPENING/CLOSING RANK</a>
+              <a href="pages/underdevlopment.html">ABOUT</a>
+              <a href="pages/underdevlopment.html">LOG/SIGN IN</a>
+            </div>
+          </div>
+        <span style="font-size: 2rem;" onclick="openNav()">&#9776;</span>
+        <ul>
+            <li id="wish"><a href="pages/underdevlopment.html">COLLAGE</a></li>
+            <li id="setRemainder"><a href="pages/underdevlopment.html">COLLAGE PREDICTION</a></li>
+            <li id="wishingTemplets"><a href="pages/underdevlopment.html">OPENING/CLOSING RANK</a></li>
+            <li id="about"><a href="pages/underdevlopment.html">ABOUT</a></li>
+            <li id="Log/Signin"><a href="pages/underdevlopment.html">LOG/SIGN IN</a></li>
+        </ul>
+    </div>
+    <div class="form-div">
+        <h1>COLLAGE PREDICTION</h1><br>
+    <h2>Based On Your Rank</h2>
+
+    <form action="backend.php" method="post">
+        <select id="select-text" class="selectText" name="catogory" id="catogory" required aria-placeholder="--category--">
+            <option value="" selected disabled>--category--</option>
+            <option value="aicmax">AIC</option>
+            <option value="aicfmax">AIC F</option>
+            <option value="hogcmax">HOGC</option>
+            <option value="hogcfmax">HOGC F</option>
+            <option value="bcamax">BCA</option>
+            <option value="bcafmax">BCA F</option>
+            <option value="bcbmax">BCB</option>
+            <option value="bcbfmax">BCB F</option>
+            <option value="bcmax">BC</option>
+            <option value="bcfmax">BC F</option>
+            <option value="scmax">SC</option>
+            <option value="scfmax">SC F</option>
+        </select>
+        <input type="number" id="input-text" name="rank" placeholder="ENTER YOUR JEE MAINS CRL RANK..." required>
+        <input type="submit" id="submit-btn" name="submit" value="PREDICT">
+    </form>
+    </div>
+    <div class="slider">
+        <div class="inerest_section">
+            
+            <div class="slides interest_slides"><div class="caption">YMCA</div><img src="images/ymca img1.jpg" alt="YMACA">
+            </div>
+            
+            <div class="slides interest_photography"><div class="caption">MDU ROHTAK</div><img src="images/mdu1.jpg" alt="MDU ROHTAK">
+
+            </div>
+            
+            <div class="slides interest_travel"><div class="caption">DCRUST</div><img src="images/dinbanduchhoturam1.jpg" alt="DCRUST">
+            </div>
+            
+            <div class="slides interest_volleyball"><div class="caption">KURUKSHETRA</div><img src="images/kurukshetra university1.jpg" alt="KURUKSHETRA">
+            </div>
+            
+            <div class="slides interest_fitness"><div class="caption">GJU HISAR</div><img src="images/gju2.jpg" alt="GJU HISAR">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10095;</a>
+            <a class="next" onclick="plusSlides(1)">&#10094;</a>
+            <div class="footer">
+                &copy;  2021-22 &nbsp;<span> KRISHAN KANHAYA</span> 
+            </div>
+     
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    
+</body>
+</html>

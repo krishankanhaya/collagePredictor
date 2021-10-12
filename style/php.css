@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(148, 161, 157);
+}
+h1{
+    text-align: center;
+    color: tomato;
+}
+h2{
+    text-align: center;
+    color: teal;
+}
+.sinfo{
+    text-align: center;
+    color: teal;
+}
+.back{
+    text-align: center;
+    border-radius: 4px;
+    color: rgb(71, 255, 209);
+    text-decoration: none;
+    transition: 1 ease;
+}
+.back:hover{
+   color: green;
+}
+th{
+    color: white;
+    background-color: black;
+}
+
+td{
+    background-color: grey;
+    color: wheat;
+    text-align: center;
+}
+.footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+}
+.footer span{
+     color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
