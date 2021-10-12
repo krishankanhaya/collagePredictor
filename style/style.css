@@ -271,7 +271,14 @@ input::-webkit-inner-spin-button {
     text-align: center;
     color: white;
 }
-
+button{
+    height: 30px;
+    width: 20vw;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(53, 250, 191);
+    margin-left: 40%;
+}
 /* end of footer styling */
 /* responsive for mobile */
 
